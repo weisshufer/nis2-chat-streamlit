@@ -1,7 +1,7 @@
 import anthropic
 
 languages = {
-    "EN": "English (en) 🇺🇸",
+    "EN": "English (en) 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
     "BG": "Bulgarian (bg) 🇧🇬",
     "ES": "Spanish (es) 🇪🇸",
     "CS": "Czech (cs) 🇨🇿",
