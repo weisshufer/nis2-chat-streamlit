@@ -1,11 +1,11 @@
 [tool.poetry]
-name = "python-template"
+name = "chat-with-nis2"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = ["Oleksii Fischer <alex@weisshufer.digital>"]
 
 [tool.poetry.dependencies]
-python = ">=3.10.0,<3.11"
+python = ">=3.10.0,<3.12"
 streamlit = "^1.27.2"
 anthropic = "^0.28.0"
 fitz = "^0.0.1.dev2"
