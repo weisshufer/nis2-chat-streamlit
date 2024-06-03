@@ -13,8 +13,8 @@ def extract_text_from_pdf(pdf_path):
   out.close()
 
 
-def prompt_generator(file_data, question, language):
-  prompt = f"""{human_prompt} + NIS-2 documentation:\n
+def prompt_generator(prompt, file_data, question, language):
+  prompt = f"""{prompt} + NIS-2 documentation:\n
   <documents>{file_data}</documents>
 \n\nResponse language: {language}"""
   return prompt
