@@ -9,8 +9,7 @@ from utils import extract_text_from_pdf, prompt_generator
 nis_file = None
 
 with st.sidebar:
-  option = st.selectbox("Choose a AI model?",
-                        ("Anthropic Claude Opus", "OpenAI GPT4"))
+  option = st.selectbox("Choose a AI model?", ("Anthropic Claude Opus"))
   anthropic_api_key = None
   openai_api_key = None
 
